@@ -11,18 +11,22 @@ Static luxury website. Deploy on Vercel by importing this repository from GitHub
 └── assets/
     ├── hero.jpg        — hero background
     ├── suite.jpg       — "The World of Maison" section
-    ├── throw.jpg       — collections card
-    └── amenities.jpg   — collections card + white-label backdrop
+    ├── throw.jpg       — shop: Maison throw
+    ├── scarf.jpg       — shop: cashmere scarf
+    ├── beanie.jpg      — shop: cashmere beanie
+    ├── robe.jpg        — shop: signature robe
+    ├── fragrance.jpg   — shop: fragrance collection
+    └── amenities.jpg   — shop: sleep essentials + white-label backdrop
 ```
 
 ## Quote form → email
 
 Out of the box, submitting the quote form opens the visitor's email app with a
-pre-filled message addressed to **sarahi@msluxuryhomes.com**. No backend needed.
+pre-filled message addressed to **ms@maisonmslux.com**. No backend needed.
 
 To send requests server-side instead (recommended):
 
-1. Create a free form at [formspree.io](https://formspree.io) pointed at sarahi@msluxuryhomes.com
+1. Create a free form at [formspree.io](https://formspree.io) pointed at ms@maisonmslux.com
 2. In `script.js`, set `FORM_ENDPOINT` to your Formspree URL, e.g.
    `var FORM_ENDPOINT = 'https://formspree.io/f/your-id';`
 3. Commit and push — Vercel redeploys automatically.

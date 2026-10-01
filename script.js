@@ -53,12 +53,23 @@
   }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
   document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
 
+  /* ---------- Product CTAs -> prefill quote form ---------- */
+  document.querySelectorAll('.product-cta').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var product = btn.getAttribute('data-product');
+      var msg = document.getElementById('qMsg');
+      msg.value = "I'm interested in: " + product + ".\n\n";
+      document.getElementById('quote').scrollIntoView({ behavior: 'smooth' });
+      setTimeout(function () { document.getElementById('qName').focus({ preventScroll: true }); }, 900);
+    });
+  });
+
   /* ---------- Quote form -> email ---------- */
   // Static sites can't send email on their own. This composes a pre-filled
   // email to the Maison team and opens the visitor's mail app.
   // To send server-side instead, point this form at Formspree (see README).
   var FORM_ENDPOINT = ''; // e.g. 'https://formspree.io/f/your-id'
-  var TEAM_EMAIL = 'sarahi@msluxuryhomes.com';
+  var TEAM_EMAIL = 'ms@maisonmslux.com';
 
   var form = document.getElementById('quoteForm');
   var note = document.getElementById('formNote');

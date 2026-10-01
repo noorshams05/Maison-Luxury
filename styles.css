@@ -9,8 +9,8 @@
   --ivory: #f4efe4;
   --muted: #a89f8d;
   --line: rgba(201, 162, 75, 0.22);
-  --serif: 'Cormorant Garamond', Georgia, serif;
-  --sans: 'Jost', 'Helvetica Neue', sans-serif;
+  --serif: 'Bodoni Moda', 'Didot', Georgia, serif;
+  --sans: 'Tenor Sans', 'Helvetica Neue', sans-serif;
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -199,6 +199,21 @@ h2 em, .hero-title em { font-style: italic; }
 .card-body p { color: var(--muted); font-size: 0.95rem; }
 .collections-note { margin-top: 2.6rem; color: var(--gold); letter-spacing: 0.08em; font-size: 0.95rem; font-style: italic; font-family: var(--serif); font-size: 1.15rem; }
 
+/* ---------- Shop ---------- */
+.shop { background: var(--black-2); }
+.shop-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.8rem; margin-top: 3.4rem; }
+.product-card .card-body { display: flex; flex-direction: column; }
+.product-card .card-body p { flex: 1; }
+.product-cta {
+  margin-top: 1.4rem; align-self: flex-start;
+  background: none; border: none; cursor: pointer;
+  color: var(--gold-light); font-family: var(--sans); font-size: 0.8rem;
+  letter-spacing: 0.22em; text-transform: uppercase; padding: 0 0 0.35rem;
+  border-bottom: 1px solid var(--line);
+  transition: color 0.3s, border-color 0.3s, transform 0.3s var(--ease);
+}
+.product-cta:hover { color: var(--gold-pale); border-color: var(--gold); transform: translateX(4px); }
+
 /* ---------- White label ---------- */
 .whitelabel { background: var(--black-3); overflow: hidden; }
 .whitelabel-bg {
@@ -281,14 +296,14 @@ h2 em, .hero-title em { font-style: italic; }
   .mobile-menu a:not(.btn) { color: var(--ivory); text-decoration: none; font-family: var(--serif); font-size: 1.8rem; }
   .maison-grid, .quote-grid { grid-template-columns: 1fr; gap: 3rem; }
   .quote-copy { position: static; }
-  .cards-grid, .clientele-grid { grid-template-columns: 1fr 1fr; }
+  .cards-grid, .shop-grid, .clientele-grid { grid-template-columns: 1fr 1fr; }
   .process-grid { grid-template-columns: 1fr 1fr; }
   .pillars-grid { grid-template-columns: 1fr; }
   .maison-media img { height: 420px; }
   section { padding: 5rem 0; }
 }
 @media (max-width: 600px) {
-  .cards-grid, .clientele-grid, .process-grid, .field-row { grid-template-columns: 1fr; }
+  .cards-grid, .shop-grid, .clientele-grid, .process-grid, .field-row { grid-template-columns: 1fr; }
   .quote-form { padding: 1.8rem; }
   .footer-contact { text-align: left; }
 }
