@@ -1,44 +1,32 @@
-# Maison by MS Luxury — Website
+# Maison by MS Luxury
 
-Static luxury website. Deploy on Vercel by importing this repository from GitHub.
+Static website with a white base with black typography and gold accents. No build step is required.
 
-## Structure
+## Updated content
 
+- Seven clickable collections and a rotating carousel covering all 61 supplied catalog presentations. Uses the supplied MS logo behind the landing section; old stock imagery removed.
+- 61 catalog product presentations extracted from the supplied line card, with category filters, search, pagination and enlarged previews.
+- Dedicated Corporate Gifting page linked from desktop and mobile navigation.
+- SVG favicon, PNG fallback and Apple touch icon.
+- Quote inquiries addressed to sarahi@msluxuryhomes.com, with selected products prefilled.
+- No product pricing. Custom gifting minimum of 100 pieces.
+
+## Quote delivery
+
+By default the form prepares an email, then displays a link for the visitor to open and send it in their email app. It does not silently or automatically deliver email.
+
+For automatic delivery, configure a form endpoint that accepts JSON and delivers inquiries to Sarahi. Add this before script.js on index.html:
+
+```html
+<script>window.MAISON_FORM_ENDPOINT = 'YOUR_VERIFIED_FORM_ENDPOINT';</script>
 ```
-├── index.html      — all page content
-├── styles.css      — gold & black theme, animations
-├── script.js       — preloader, nav, parallax, reveals, quote form
-└── assets/
-    ├── hero.jpg        — hero background
-    ├── suite.jpg       — "The World of Maison" section
-    ├── throw.jpg       — shop: Maison throw
-    ├── scarf.jpg       — shop: cashmere scarf
-    ├── beanie.jpg      — shop: cashmere beanie
-    ├── robe.jpg        — shop: signature robe
-    ├── fragrance.jpg   — shop: fragrance collection
-    └── amenities.jpg   — shop: sleep essentials + white-label backdrop
-```
 
-## Quote form → email
+The UI confirms delivery only after a successful endpoint response. Test the configured service before launch. Do not put email-provider secrets into browser JavaScript.
 
-Out of the box, submitting the quote form opens the visitor's email app with a
-pre-filled message addressed to **ms@maisonmslux.com**. No backend needed.
+## Publish the update
 
-To send requests server-side instead (recommended):
+Replace the repository's site files with the contents of this folder and commit/push. Preserve the assets/catalog directory, products.js and corporate-gifting.html. For Vercel, use Framework Preset Other and no build command.
 
-1. Create a free form at [formspree.io](https://formspree.io) pointed at ms@maisonmslux.com
-2. In `script.js`, set `FORM_ENDPOINT` to your Formspree URL, e.g.
-   `var FORM_ENDPOINT = 'https://formspree.io/f/your-id';`
-3. Commit and push — Vercel redeploys automatically.
+## Catalog editing
 
-## Deploy on Vercel
-
-1. Push this folder to a new GitHub repository.
-2. In Vercel: **Add New → Project → Import** the repository.
-3. Framework preset: **Other**. No build command needed.
-4. Deploy.
-
-## Notes
-
-- No pricing anywhere on the site, per requirements.
-- Recipient email lives in `script.js` (`TEAM_EMAIL`).
+Product metadata is recorded in products.json and products.js. index.html contains matching static cards, so update all three if changing the catalog. Supplied branded photographs are customization examples, not endorsements.
