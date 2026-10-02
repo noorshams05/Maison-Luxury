@@ -26,6 +26,18 @@ function stopRotation(){clearInterval(timer);}
 function startRotation(){stopRotation();if(playing&&!document.hidden)timer=setInterval(()=>{if(!document.getElementById('productDialog').open)displaySlide(1);},6000);}
 function pauseLabel(){pause.textContent=playing?'Pause':'Play';pause.setAttribute('aria-label',playing?'Pause product rotation':'Play product rotation');}
 if(slides.length){document.getElementById('slidePrev').addEventListener('click',()=>{displaySlide(-1);startRotation();});document.getElementById('slideNext').addEventListener('click',()=>{displaySlide(1);startRotation();});pause.addEventListener('click',()=>{playing=!playing;pauseLabel();startRotation();});stage.addEventListener('mouseenter',stopRotation);stage.addEventListener('mouseleave',startRotation);stage.addEventListener('focusin',stopRotation);stage.addEventListener('focusout',startRotation);document.addEventListener('visibilitychange',startRotation);pauseLabel();startRotation();}
+const rail=document.getElementById('productRail');
+if(rail){
+ const railCards=Array.from(rail.querySelectorAll('.rail-card')),markers=document.getElementById('railMarkers'),prev=document.getElementById('railPrev'),next=document.getElementById('railNext');
+ const step=()=>railCards[0].getBoundingClientRect().width+parseFloat(getComputedStyle(rail).gap||0);
+ let pageCount=0;
+ function syncRail(){const stride=step();if(!stride)return;const max=Math.max(0,rail.scrollWidth-rail.clientWidth);const pages=Math.ceil(max/stride)+1;
+ if(pages!==pageCount){pageCount=pages;markers.replaceChildren();for(let i=0;i<pages;i++){const b=document.createElement('button');b.type='button';b.className='rail-marker';b.setAttribute('aria-label','Go to product position '+(i+1));b.addEventListener('click',()=>rail.scrollTo({left:Math.min(i*step(),rail.scrollWidth-rail.clientWidth),behavior:reduced?'auto':'smooth'}));markers.append(b);}}
+ const active=Math.min(pageCount-1,Math.round(rail.scrollLeft/stride));Array.from(markers.children).forEach((b,i)=>b.setAttribute('aria-current',String(i===active)));prev.disabled=rail.scrollLeft<=2;next.disabled=rail.scrollLeft>=max-2;
+ }
+ function moveRail(direction){rail.scrollBy({left:step()*direction,behavior:reduced?'auto':'smooth'});}
+ prev.addEventListener('click',()=>moveRail(-1));next.addEventListener('click',()=>moveRail(1));rail.addEventListener('scroll',syncRail,{passive:true});window.addEventListener('resize',syncRail);rail.addEventListener('keydown',e=>{if(e.target!==rail)return;if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();moveRail(e.key==='ArrowRight'?1:-1);}});syncRail();
+}
 const dialog=document.getElementById('productDialog');let currentProduct;
 document.querySelectorAll('[data-preview], [data-featured-preview]').forEach(btn=>btn.addEventListener('click',()=>{currentProduct=window.MAISON_PRODUCTS.find(p=>p.id===(btn.dataset.preview||btn.dataset.featuredPreview));document.getElementById('dialogImage').src=currentProduct.image;document.getElementById('dialogImage').alt=currentProduct.name+' — '+currentProduct.detail;document.getElementById('dialogCollection').textContent=currentProduct.collection;document.getElementById('dialogName').textContent=currentProduct.name;document.getElementById('dialogDetail').textContent=currentProduct.detail;dialog.showModal();}));
 dialog.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});document.getElementById('dialogQuote').addEventListener('click',()=>{dialog.close();selectProduct(currentProduct.name+' — '+currentProduct.detail);});

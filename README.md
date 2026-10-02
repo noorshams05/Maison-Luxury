@@ -4,7 +4,7 @@ Static website with a white base with black typography and gold accents. No buil
 
 ## Updated content
 
-- Seven clickable collections and a rotating carousel covering all 61 supplied catalog presentations. Uses the supplied MS logo behind the landing section; old stock imagery removed.
+- Seven clickable collections and a swipeable shopping row of 12 featured catalog pieces, plus the full 61 supplied catalog presentations. Uses the supplied MS logo behind the landing section; old stock imagery removed.
 - 61 catalog product presentations extracted from the supplied line card, with category filters, search, pagination and enlarged previews.
 - Dedicated Corporate Gifting page linked from desktop and mobile navigation.
 - SVG favicon, PNG fallback and Apple touch icon.
