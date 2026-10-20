@@ -41,7 +41,7 @@ if(rail){
 const dialog=document.getElementById('productDialog');let currentProduct;
 document.querySelectorAll('[data-preview], [data-featured-preview]').forEach(btn=>btn.addEventListener('click',()=>{currentProduct=window.MAISON_PRODUCTS.find(p=>p.id===(btn.dataset.preview||btn.dataset.featuredPreview));document.getElementById('dialogImage').src=currentProduct.image;document.getElementById('dialogImage').alt=currentProduct.name+' — '+currentProduct.detail;document.getElementById('dialogCollection').textContent=currentProduct.collection;document.getElementById('dialogName').textContent=currentProduct.name;document.getElementById('dialogDetail').textContent=currentProduct.detail;dialog.showModal();}));
 dialog.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});document.getElementById('dialogQuote').addEventListener('click',()=>{dialog.close();selectProduct(currentProduct.name+' — '+currentProduct.detail);});
-const TEAM_EMAIL='sarahi@msluxuryhomes.com',FORM_ENDPOINT=window.MAISON_FORM_ENDPOINT||'';
+const TEAM_EMAIL='Ms@maisonmslux.com',FORM_ENDPOINT=window.MAISON_FORM_ENDPOINT||'';
 const note=document.getElementById('formNote'),fallback=document.getElementById('quoteEmailFallback'),submit=form.querySelector('[type="submit"]');
 form.addEventListener('submit',async e=>{e.preventDefault();if(!form.reportValidity())return;if(document.getElementById('qWebsite').value)return;
 const data=Object.fromEntries(new FormData(form));Object.keys(data).forEach(k=>data[k]=String(data[k]).trim());
