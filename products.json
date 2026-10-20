@@ -1,5 +1,257 @@
 [
   {
+    "id": "p12-1",
+    "name": "Shawl Collar Microfiber Robe",
+    "detail": "Ecru",
+    "category": "robes",
+    "collection": "Microfiber & Waffle Robes",
+    "image": "assets/catalog/p12-01.webp",
+    "page": 12
+  },
+  {
+    "id": "p12-2",
+    "name": "Shawl Collar Waffle Robe",
+    "detail": "White",
+    "category": "robes",
+    "collection": "Microfiber & Waffle Robes",
+    "image": "assets/catalog/p12-02.webp",
+    "page": 12
+  },
+  {
+    "id": "p12-3",
+    "name": "Shawl Collar Microfiber Robe",
+    "detail": "White",
+    "category": "robes",
+    "collection": "Microfiber & Waffle Robes",
+    "image": "assets/catalog/p12-03.webp",
+    "page": 12
+  },
+  {
+    "id": "p12-4",
+    "name": "Shawl Collar Microfiber Robe",
+    "detail": "White · alternate presentation",
+    "category": "robes",
+    "collection": "Microfiber & Waffle Robes",
+    "image": "assets/catalog/p12-04.webp",
+    "page": 12
+  },
+  {
+    "id": "p12-5",
+    "name": "Microfiber Robe · His & Hers",
+    "detail": "White & black",
+    "category": "robes",
+    "collection": "Microfiber & Waffle Robes",
+    "image": "assets/catalog/p12-05.webp",
+    "page": 12
+  },
+  {
+    "id": "p12-6",
+    "name": "SCMR Monogram Robe",
+    "detail": "Custom",
+    "category": "robes",
+    "collection": "Microfiber & Waffle Robes",
+    "image": "assets/catalog/p12-06.webp",
+    "page": 12
+  },
+  {
+    "id": "p13-1",
+    "name": "Waffle Kimono Robe",
+    "detail": "White · Monogram",
+    "category": "robes",
+    "collection": "Waffle & Classic Robes",
+    "image": "assets/catalog/p13-01.webp",
+    "page": 13
+  },
+  {
+    "id": "p13-2",
+    "name": "Waffle Kimono Robe",
+    "detail": "White",
+    "category": "robes",
+    "collection": "Waffle & Classic Robes",
+    "image": "assets/catalog/p13-02.webp",
+    "page": 13
+  },
+  {
+    "id": "p13-3",
+    "name": "Classic Robe",
+    "detail": "Grey · Folded",
+    "category": "robes",
+    "collection": "Waffle & Classic Robes",
+    "image": "assets/catalog/p13-03.webp",
+    "page": 13
+  },
+  {
+    "id": "p13-4",
+    "name": "Classic Robes",
+    "detail": "Dark grey",
+    "category": "robes",
+    "collection": "Waffle & Classic Robes",
+    "image": "assets/catalog/p13-04.webp",
+    "page": 13
+  },
+  {
+    "id": "p13-5",
+    "name": "His & Hers Robes",
+    "detail": "Black",
+    "category": "robes",
+    "collection": "Waffle & Classic Robes",
+    "image": "assets/catalog/p13-05.webp",
+    "page": 13
+  },
+  {
+    "id": "p14-1",
+    "name": "Microterry Jacquard · Shawl Collar",
+    "detail": "White · Folded",
+    "category": "robes",
+    "collection": "Microterry, Stripe & Lounge",
+    "image": "assets/catalog/p14-01.webp",
+    "page": 14
+  },
+  {
+    "id": "p14-2",
+    "name": "Microterry Jacquard Bathrobe",
+    "detail": "White",
+    "category": "robes",
+    "collection": "Microterry, Stripe & Lounge",
+    "image": "assets/catalog/p14-02.webp",
+    "page": 14
+  },
+  {
+    "id": "p14-3",
+    "name": "Microterry Jacquard Bathrobe",
+    "detail": "White · alternate presentation",
+    "category": "robes",
+    "collection": "Microterry, Stripe & Lounge",
+    "image": "assets/catalog/p14-03.webp",
+    "page": 14
+  },
+  {
+    "id": "p14-4",
+    "name": "Custom Striped Robe",
+    "detail": "Blue",
+    "category": "robes",
+    "collection": "Microterry, Stripe & Lounge",
+    "image": "assets/catalog/p14-04.webp",
+    "page": 14
+  },
+  {
+    "id": "p14-5",
+    "name": "Striped Robe",
+    "detail": "Blue",
+    "category": "robes",
+    "collection": "Microterry, Stripe & Lounge",
+    "image": "assets/catalog/p14-05.webp",
+    "page": 14
+  },
+  {
+    "id": "p14-6",
+    "name": "Sweatshirt Robe",
+    "detail": "Grey · 60% poly, 40% cotton",
+    "category": "robes",
+    "collection": "Microterry, Stripe & Lounge",
+    "image": "assets/catalog/p14-06.webp",
+    "page": 14
+  },
+  {
+    "id": "p11-1",
+    "name": "Satin Robe",
+    "detail": "Blush",
+    "category": "robes",
+    "collection": "Satin & Bridesmaid Robes",
+    "image": "assets/catalog/p11-01.webp",
+    "page": 11
+  },
+  {
+    "id": "p11-2",
+    "name": "Satin Robe",
+    "detail": "White",
+    "category": "robes",
+    "collection": "Satin & Bridesmaid Robes",
+    "image": "assets/catalog/p11-02.webp",
+    "page": 11
+  },
+  {
+    "id": "p11-3",
+    "name": "Satin Robe",
+    "detail": "Black",
+    "category": "robes",
+    "collection": "Satin & Bridesmaid Robes",
+    "image": "assets/catalog/p11-03.webp",
+    "page": 11
+  },
+  {
+    "id": "p11-4",
+    "name": "Bridesmaid Robes",
+    "detail": "Black · Set",
+    "category": "robes",
+    "collection": "Satin & Bridesmaid Robes",
+    "image": "assets/catalog/p11-04.webp",
+    "page": 11
+  },
+  {
+    "id": "p11-5",
+    "name": "Bridesmaid Robes",
+    "detail": "Blush · Set",
+    "category": "robes",
+    "collection": "Satin & Bridesmaid Robes",
+    "image": "assets/catalog/p11-05.webp",
+    "page": 11
+  },
+  {
+    "id": "p15-1",
+    "name": "Children’s Robe",
+    "detail": "White · Hooded",
+    "category": "robes",
+    "collection": "Children’s Robes",
+    "image": "assets/catalog/p15-01.webp",
+    "page": 15
+  },
+  {
+    "id": "p15-2",
+    "name": "Children’s Robe",
+    "detail": "White",
+    "category": "robes",
+    "collection": "Children’s Robes",
+    "image": "assets/catalog/p15-02.webp",
+    "page": 15
+  },
+  {
+    "id": "p15-3",
+    "name": "Children’s Robe",
+    "detail": "White · alternate presentation",
+    "category": "robes",
+    "collection": "Children’s Robes",
+    "image": "assets/catalog/p15-03.webp",
+    "page": 15
+  },
+  {
+    "id": "p15-4",
+    "name": "Children’s Robe",
+    "detail": "White · Hooded · Customized",
+    "category": "robes",
+    "collection": "Children’s Robes",
+    "image": "assets/catalog/p15-04.webp",
+    "page": 15
+  },
+  {
+    "id": "p15-5",
+    "name": "Children’s Robe",
+    "detail": "White · personalized presentation",
+    "category": "robes",
+    "collection": "Children’s Robes",
+    "image": "assets/catalog/p15-05.webp",
+    "page": 15
+  },
+  {
+    "id": "p15-6",
+    "name": "Children’s Robe",
+    "detail": "White · alternate view",
+    "category": "robes",
+    "collection": "Children’s Robes",
+    "image": "assets/catalog/p15-06.webp",
+    "page": 15
+  },
+  {
     "id": "p5-1",
     "name": "Sweet Dreams Pillow Mist",
     "detail": "Boxed · 30 ml",
@@ -250,258 +502,6 @@
     "collection": "Accessories & Finishing Touches",
     "image": "assets/catalog/p09-04.webp",
     "page": 9
-  },
-  {
-    "id": "p11-1",
-    "name": "Satin Robe",
-    "detail": "Blush",
-    "category": "robes",
-    "collection": "Satin & Bridesmaid Robes",
-    "image": "assets/catalog/p11-01.webp",
-    "page": 11
-  },
-  {
-    "id": "p11-2",
-    "name": "Satin Robe",
-    "detail": "White",
-    "category": "robes",
-    "collection": "Satin & Bridesmaid Robes",
-    "image": "assets/catalog/p11-02.webp",
-    "page": 11
-  },
-  {
-    "id": "p11-3",
-    "name": "Satin Robe",
-    "detail": "Black",
-    "category": "robes",
-    "collection": "Satin & Bridesmaid Robes",
-    "image": "assets/catalog/p11-03.webp",
-    "page": 11
-  },
-  {
-    "id": "p11-4",
-    "name": "Bridesmaid Robes",
-    "detail": "Black · Set",
-    "category": "robes",
-    "collection": "Satin & Bridesmaid Robes",
-    "image": "assets/catalog/p11-04.webp",
-    "page": 11
-  },
-  {
-    "id": "p11-5",
-    "name": "Bridesmaid Robes",
-    "detail": "Blush · Set",
-    "category": "robes",
-    "collection": "Satin & Bridesmaid Robes",
-    "image": "assets/catalog/p11-05.webp",
-    "page": 11
-  },
-  {
-    "id": "p12-1",
-    "name": "Shawl Collar Microfiber Robe",
-    "detail": "Ecru",
-    "category": "robes",
-    "collection": "Microfiber & Waffle Robes",
-    "image": "assets/catalog/p12-01.webp",
-    "page": 12
-  },
-  {
-    "id": "p12-2",
-    "name": "Shawl Collar Waffle Robe",
-    "detail": "White",
-    "category": "robes",
-    "collection": "Microfiber & Waffle Robes",
-    "image": "assets/catalog/p12-02.webp",
-    "page": 12
-  },
-  {
-    "id": "p12-3",
-    "name": "Shawl Collar Microfiber Robe",
-    "detail": "White",
-    "category": "robes",
-    "collection": "Microfiber & Waffle Robes",
-    "image": "assets/catalog/p12-03.webp",
-    "page": 12
-  },
-  {
-    "id": "p12-4",
-    "name": "Shawl Collar Microfiber Robe",
-    "detail": "White · alternate presentation",
-    "category": "robes",
-    "collection": "Microfiber & Waffle Robes",
-    "image": "assets/catalog/p12-04.webp",
-    "page": 12
-  },
-  {
-    "id": "p12-5",
-    "name": "Microfiber Robe · His & Hers",
-    "detail": "White & black",
-    "category": "robes",
-    "collection": "Microfiber & Waffle Robes",
-    "image": "assets/catalog/p12-05.webp",
-    "page": 12
-  },
-  {
-    "id": "p12-6",
-    "name": "SCMR Monogram Robe",
-    "detail": "Custom",
-    "category": "robes",
-    "collection": "Microfiber & Waffle Robes",
-    "image": "assets/catalog/p12-06.webp",
-    "page": 12
-  },
-  {
-    "id": "p13-1",
-    "name": "Waffle Kimono Robe",
-    "detail": "White · Monogram",
-    "category": "robes",
-    "collection": "Waffle & Classic Robes",
-    "image": "assets/catalog/p13-01.webp",
-    "page": 13
-  },
-  {
-    "id": "p13-2",
-    "name": "Waffle Kimono Robe",
-    "detail": "White",
-    "category": "robes",
-    "collection": "Waffle & Classic Robes",
-    "image": "assets/catalog/p13-02.webp",
-    "page": 13
-  },
-  {
-    "id": "p13-3",
-    "name": "Classic Robe",
-    "detail": "Grey · Folded",
-    "category": "robes",
-    "collection": "Waffle & Classic Robes",
-    "image": "assets/catalog/p13-03.webp",
-    "page": 13
-  },
-  {
-    "id": "p13-4",
-    "name": "Classic Robes",
-    "detail": "Dark grey",
-    "category": "robes",
-    "collection": "Waffle & Classic Robes",
-    "image": "assets/catalog/p13-04.webp",
-    "page": 13
-  },
-  {
-    "id": "p13-5",
-    "name": "His & Hers Robes",
-    "detail": "Black",
-    "category": "robes",
-    "collection": "Waffle & Classic Robes",
-    "image": "assets/catalog/p13-05.webp",
-    "page": 13
-  },
-  {
-    "id": "p14-1",
-    "name": "Microterry Jacquard · Shawl Collar",
-    "detail": "White · Folded",
-    "category": "robes",
-    "collection": "Microterry, Stripe & Lounge",
-    "image": "assets/catalog/p14-01.webp",
-    "page": 14
-  },
-  {
-    "id": "p14-2",
-    "name": "Microterry Jacquard Bathrobe",
-    "detail": "White",
-    "category": "robes",
-    "collection": "Microterry, Stripe & Lounge",
-    "image": "assets/catalog/p14-02.webp",
-    "page": 14
-  },
-  {
-    "id": "p14-3",
-    "name": "Microterry Jacquard Bathrobe",
-    "detail": "White · alternate presentation",
-    "category": "robes",
-    "collection": "Microterry, Stripe & Lounge",
-    "image": "assets/catalog/p14-03.webp",
-    "page": 14
-  },
-  {
-    "id": "p14-4",
-    "name": "Custom Striped Robe",
-    "detail": "Blue",
-    "category": "robes",
-    "collection": "Microterry, Stripe & Lounge",
-    "image": "assets/catalog/p14-04.webp",
-    "page": 14
-  },
-  {
-    "id": "p14-5",
-    "name": "Striped Robe",
-    "detail": "Blue",
-    "category": "robes",
-    "collection": "Microterry, Stripe & Lounge",
-    "image": "assets/catalog/p14-05.webp",
-    "page": 14
-  },
-  {
-    "id": "p14-6",
-    "name": "Sweatshirt Robe",
-    "detail": "Grey · 60% poly, 40% cotton",
-    "category": "robes",
-    "collection": "Microterry, Stripe & Lounge",
-    "image": "assets/catalog/p14-06.webp",
-    "page": 14
-  },
-  {
-    "id": "p15-1",
-    "name": "Children’s Robe",
-    "detail": "White · Hooded",
-    "category": "robes",
-    "collection": "Children’s Robes",
-    "image": "assets/catalog/p15-01.webp",
-    "page": 15
-  },
-  {
-    "id": "p15-2",
-    "name": "Children’s Robe",
-    "detail": "White",
-    "category": "robes",
-    "collection": "Children’s Robes",
-    "image": "assets/catalog/p15-02.webp",
-    "page": 15
-  },
-  {
-    "id": "p15-3",
-    "name": "Children’s Robe",
-    "detail": "White · alternate presentation",
-    "category": "robes",
-    "collection": "Children’s Robes",
-    "image": "assets/catalog/p15-03.webp",
-    "page": 15
-  },
-  {
-    "id": "p15-4",
-    "name": "Children’s Robe",
-    "detail": "White · Hooded · Customized",
-    "category": "robes",
-    "collection": "Children’s Robes",
-    "image": "assets/catalog/p15-04.webp",
-    "page": 15
-  },
-  {
-    "id": "p15-5",
-    "name": "Children’s Robe",
-    "detail": "White · personalized presentation",
-    "category": "robes",
-    "collection": "Children’s Robes",
-    "image": "assets/catalog/p15-05.webp",
-    "page": 15
-  },
-  {
-    "id": "p15-6",
-    "name": "Children’s Robe",
-    "detail": "White · alternate view",
-    "category": "robes",
-    "collection": "Children’s Robes",
-    "image": "assets/catalog/p15-06.webp",
-    "page": 15
   },
   {
     "id": "p17-1",
