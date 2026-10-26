@@ -30,3 +30,7 @@ Replace the repository's site files with the contents of this folder and commit/
 ## Catalog editing
 
 Product metadata is recorded in products.json and products.js. index.html contains matching static cards, so update all three if changing the catalog. Supplied branded photographs are customization examples, not endorsements.
+
+## October 26 About page update
+
+Added about.html with the supplied founder story and sign-off verbatim. Our Maison links on desktop and mobile now open this page. The homepage story teaser links to the full story.
